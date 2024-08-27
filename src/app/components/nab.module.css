@@ -1,0 +1,25 @@
+/* nab.module.css */
+.footer {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.link {
+  color: #000;
+}
+
+.icon {
+  margin-bottom: 0.5rem;
+}
+.icon {
+  display: flex;
+  flex-direction: row; /* เปลี่ยนการจัดวางจากแนวตั้งเป็นแนวนอน */
+  align-items: center;
+}
+
+.icon path {
+  margin-right: 4px; /* เพิ่มระยะห่างระหว่างจุด */
+}
+.link {
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+}

@@ -1,0 +1,12 @@
+.navLinkButton {
+    border: 2px solid red; /* กรอบสีแดง */
+    border-radius: 4px; /* มุมกรอบโค้ง */
+    padding: 0.5rem 1rem; /* เพิ่มพื้นที่ภายในกรอบ */
+    transition: background-color 0.3s, color 0.3s; /* เพิ่มเอฟเฟกต์การเปลี่ยนสีเมื่อเลื่อนเมาส์ */
+  }
+  
+  .navLinkButton:hover {
+    background-color: red; /* เปลี่ยนพื้นหลังเป็นสีแดงเมื่อเลื่อนเมาส์ */
+    color: white; /* เปลี่ยนสีข้อความเป็นขาวเมื่อเลื่อนเมาส์ */
+  }
+    

@@ -1,0 +1,63 @@
+.profileContainer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.coverPhoto {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.profileDetails {
+  flex-grow: 1;
+}
+
+.profileName {
+  margin: 0;
+  font-size: 24px;
+}
+
+.profileBio {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.profileTabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+
+.tabButton {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+}
+
+.tabButton:hover {
+  color: #000;
+}
+
+.profileContent {
+  padding: 20px;
+}
